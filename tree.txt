@@ -1,0 +1,25 @@
+.
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   └── images
+│       ├── basque-floral.jpg
+│       ├── black-sesame.jpg
+│       ├── cake - 2.jpg
+│       ├── cake -1.jpg
+│       ├── logo.jpg
+│       ├── matcha-gold.jpg
+│       ├── tea-set.jpg
+│       ├── vido 1.mp4
+│       └── vido 2.mp4
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+├── tree.txt
+└── vite.config.js
+
+4 directories, 19 files
