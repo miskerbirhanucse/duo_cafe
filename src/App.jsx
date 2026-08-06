@@ -135,7 +135,7 @@ export default function App() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover z-0 filter brightness-[0.70]"
         >
-          <source src="/videos/vido-1.mp4" type="video/mp4" />
+          <source src="./videos/vido-1.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/30 z-10" />
 
@@ -183,7 +183,7 @@ export default function App() {
           <div className="bg-[#efe9dd] border border-[#e2dcd0] rounded-3xl p-8 flex flex-col md:flex-row items-center gap-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full md:w-1/2 aspect-square rounded-2xl overflow-hidden bg-white/50">
               <img
-                src="/images/cake-1.jpg"
+                src="./images/cake-1.jpg"
                 alt="Matcha Lemon Basque"
                 className="w-full h-full object-contain p-2"
               />
@@ -206,7 +206,7 @@ export default function App() {
           <div className="bg-[#efe9dd] border border-[#e2dcd0] rounded-3xl p-8 flex flex-col md:flex-row items-center gap-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-full md:w-1/2 aspect-square rounded-2xl overflow-hidden bg-white/50">
               <img
-                src="/images/cake-2.jpg"
+                src="./images/cake-2.jpg"
                 alt="Guava Marble Mousse"
                 className="w-full h-full object-contain p-2"
               />
@@ -246,7 +246,7 @@ export default function App() {
           <div className="relative rounded-3xl overflow-hidden border border-[#e2dcd0] bg-black shadow-lg group">
             <video
               ref={videoRef}
-              src="/videos/vido-2.mp4"
+              src="./videos/vido-2.mp4"
               playsInline
               loop
               muted={isMuted}
